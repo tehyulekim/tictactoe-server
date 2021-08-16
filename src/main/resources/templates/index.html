@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+    <link rel="stylesheet" href="/stylesheet/style.css"/>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td id="x1z3">x1z3</td>
+        <td id="x2z3">x2z3</td>
+        <td id="x3z3">x3z3</td>
+    </tr>
+    <tr>
+        <td id="x1z2">x1z2</td>
+        <td id="x2z2">x2z2</td>
+        <td id="x3z2">x3z2</td>
+    </tr>
+    <tr>
+        <td id="x1z1">x1z1</td>
+        <td id="x2z1">x2z1</td>
+        <td id="x3z1">x3z1</td>
+    </tr>
+</table>
+
+<br/>
+
+<table>
+    <tr>
+        <td id="a1c3">a1c3</td>
+        <td id="a2c3">a2c3</td>
+        <td id="a3c3">a3c3</td>
+    </tr>
+    <tr>
+        <td id="a1c2">a1c2</td>
+        <td id="a2c2">a2c2</td>
+        <td id="a3c2">a3c2</td>
+    </tr>
+    <tr>
+        <td id="a1c1">a1c1</td>
+        <td id="a2c1">a2c1</td>
+        <td id="a3c1">a3c1</td>
+    </tr>
+</table>
+
+
+<p th:text="${sessionName}">session-name</p>
+<p th:text="${sessionId}">sessiod-id</p>
+
+<!--<p th:text="${session.getAttribute('sessionName')}" th:unless="${session == null}">session-name-text</p>-->
+
+<a href="/ttt">to TTT</a>
+<br/>
+
+<!--<p th:text="${attributeName1.getId()}"> ${a1}</p>-->
+
+
+<button type="button" onclick="ajax1()">1</button>
+<div id="id1"></div>
+
+<button type="button" onclick="ajaxget1()">2</button>
+<div id="id2"></div>
+
+<button type="button" onclick="ajaxgetjson1()">2j</button>
+<div id="id2j"></div>
+
+<button type="button" onclick="ajaxpost1()">3</button>
+<div id="id3"></div>
+
+<button type="button" onclick="ajaxpost4()">4</button>
+<div id="id4"></div>
+
+<button type="button" onclick="ajax5()">5</button>
+<div id="id5"></div>
+
+<button type="button" onclick="ajax6()">6</button>
+<div id="id6"></div>
+
+<button type="button" onclick="ajax7()">7</button>
+<div id="id7"></div>
+
+<button type="button" onclick="ajax8()">8</button>
+<div id="id8"></div>
+
+
+<script>
+
+
+</script>
+<script src="/javascript/index.js"></script>
+<script src="/javascript/AJAXGETPOST.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session.html</title>
+</head>
+
+<!--
+https://www.w3schools.com/html/html5_webstorage.asp
+The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session.
+ The data is deleted when the user closes the specific browser tab.
+
+
+
+Java class creates id = ++counter, and sends class id to client.
+session storage saves the class id, and uses it for all communication.
+
+
+https://docs.spring.io/spring-session/docs/current/reference/html5/
+https://www.javadevjournal.com/spring/spring-session/
+
+
+https://www.tutorialspoint.com/jsp/jsp_session_tracking.htm
+JSP - Session Tracking
+
+
+https://youtu.be/ypkDzSjalRo?t=556
+https://www.youtube.com/watch?v=ypkDzSjalRo
+Spring MVC Session Handling with @SessionAttributes - Session vs Request
+
+
+https://www.youtube.com/watch?v=ZbPmeb3HYqk
+Managing Session Attributes for JAVA MVC Applications
+
+
+
+https://dzone.com/articles/using-http-session-spring
+Using Http Session With Spring Based Web Applications
+
+
+https://stackoverflow.com/questions/10034993/spring-store-object-in-session
+
+
+
+https://www.vertabelo.com/blog/technical-articles/tutorial-how-to-develop-a-simple-tic-tac-toe-game-with-spring-boot-and-angularjs#create-a-new-gme
+
+
+-->
+<body>
+
+<p>
+    <button onclick="clickCounter()" type="button">Click me!</button>
+</p>
+<div id="result"></div>
+<div id="resultLocal"></div>
+
+<p>Click the button to see the counter increase.</p>
+<p>Close the browser tab (or window), and try again, and the counter is reset.</p>
+
+
+
+
+
+<script>
+
+    function clickCounter() {
+        if (sessionStorage.value1) {
+            sessionStorage.value1 = Number(sessionStorage.value1) + 1;
+        } else {
+            sessionStorage.value1 = 0;
+        }
+        if (localStorage.value1) {
+            localStorage.value1 = Number(localStorage.value1) + 1;
+        } else {
+            localStorage.value1 = 0;
+        }
+
+        document.getElementById("result").innerHTML = " Session Storage " + sessionStorage.value1 + " time(s) in this session.";
+        document.getElementById("resultLocal").innerHTML = "Local Storage " + localStorage.value1 + " time(s) in this session.";
+    }
+</script>
+</body>
+</html>
