@@ -3,6 +3,11 @@ package assignment2_server_14068171.server;
 import java.util.Arrays;
 
 /*
+
+
+
+
+
 Regular expression to decide winner.
 "xxx______"
 ___xxx___"
@@ -117,6 +122,13 @@ window.location.assign("http://localhost:8080/ttt")
 
         System.out.println("Character.isDigit(position.charAt(1)) = " + Character.isDigit(position.charAt(1)));
         System.out.println("Character.isDigit(position.charAt(1)) = " + Character.isDigit(position.charAt(3)));
+
+
+
+
+
+https://www.youtube.com/watch?v=d86xG-UKWB0
+02 spring boot gradle deploy heroku
 
 
 

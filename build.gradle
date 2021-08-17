@@ -1,5 +1,6 @@
 plugins {
     id 'org.springframework.boot' version '2.5.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
     id 'application'
 }
@@ -7,8 +8,6 @@ plugins {
 /* https://spring.io/guides/gs/gradle/
 */
 mainClassName = 'assignment2_server_14068171.server.ServerApplication'
-
-apply plugin: 'io.spring.dependency-management'
 
 group = 'assignment2_server_14068171'
 version = '0.0.1-SNAPSHOT'
