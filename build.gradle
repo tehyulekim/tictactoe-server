@@ -1,7 +1,12 @@
 plugins {
-    id 'org.springframework.boot' version '2.1.5.RELEASE'
+    id 'org.springframework.boot' version '2.5.3'
     id 'java'
+    id 'application'
 }
+
+/* https://spring.io/guides/gs/gradle/
+*/
+mainClassName = 'assignment2_server_14068171.server.ServerApplication'
 
 apply plugin: 'io.spring.dependency-management'
 
@@ -14,7 +19,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.5.3'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.3'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.3'
+    testImplementation 'junit:junit:4.13.2'
 }

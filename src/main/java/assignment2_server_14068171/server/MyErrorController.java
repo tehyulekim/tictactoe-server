@@ -40,7 +40,7 @@ public class MyErrorController implements ErrorController {
         return "error";
     }
 
-    @Override
+//    @Override
     public String getErrorPath() {
         return "/error";
     }

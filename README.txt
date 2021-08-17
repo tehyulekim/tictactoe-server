@@ -1,12 +1,20 @@
+Tic tac toe on Java, Gradle, Spring Boot
+159352 Advanced Web Development - Assignment 2
 
-Updated
-2021-8-17
-2021-229
+Updated 2021-8-17, 2021-229
 
-Completed
-2019-5-29
-2019-149
 
+To Run
+$ ./gradlew build
+$ ./gradlew run
+
+http://localhost:8080/ttt
+
+
+
+
+
+Completed 2019-5-29, 2019-149
 
 README INSTRUCTIONS
 
@@ -35,11 +43,6 @@ A2\src\main\java\assignment2_server_14068171\server\ServerApplication.java
 
 Open browser
 http://localhost:8080/ttt
-
-
-
-
-
 
 
 
@@ -86,10 +89,10 @@ modelMap.addAttribute("sessionGame", new TTT());
 
 
 
-
 Tests
 
 To Run test
 A2\src\test\java\assignment2_server_14068171\server\ServiceTests.java
 
-Set up but couldn't get it running well as in browser. Trouble making sequential changes in object contained in session.
+Tests set up but couldn't get it running well as in the browser.
+Trouble making sequential changes in object contained in session.
