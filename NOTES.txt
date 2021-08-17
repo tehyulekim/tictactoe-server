@@ -12,6 +12,15 @@ http://localhost:8080/ttt
 
 
 
+OR
+$ heroku local web
+
+http://localhost:8080/
+
+
+
+
+
 
 Completed 2019-5-29, 2019-149
 
@@ -99,8 +108,4 @@ Trouble making sequential changes in object contained in session.
 
 
 
-
-https://devcenter.heroku.com/articles/customizing-the-jdk#specify-a-jdk-version
-Specify a JDK version in file:
-system.properties
 

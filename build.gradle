@@ -23,3 +23,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.3'
     testImplementation 'junit:junit:4.13.2'
 }
+
+test {
+    useJUnitPlatform()
+}
