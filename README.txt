@@ -22,6 +22,7 @@ JDK12
 Gradle 5.4.1 >  7.1.1
 
 
+
 Unzip project file server.zip. It will create directory
 server\A2
 
@@ -95,3 +96,11 @@ A2\src\test\java\assignment2_server_14068171\server\ServiceTests.java
 
 Tests set up but couldn't get it running well as in the browser.
 Trouble making sequential changes in object contained in session.
+
+
+
+
+https://devcenter.heroku.com/articles/customizing-the-jdk#specify-a-jdk-version
+Specify a JDK version in file:
+system.properties
+
