@@ -1,17 +1,18 @@
 
-
-
-
+Updated
+2021-8-17
+2021-229
 
 Completed
 2019-5-29
 2019-149
 
+
 README INSTRUCTIONS
 
 This project uses
 JDK12
-Gradle 5.4.1
+Gradle 5.4.1 >  7.1.1
 
 
 Unzip project file server.zip. It will create directory

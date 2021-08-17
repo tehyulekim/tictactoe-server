@@ -23,6 +23,7 @@ public class ServerApplicationTests {
     @Autowired
     private MockMvc mvc;
 
+/*
 
     @Test
     public void getHello() throws Exception {
@@ -31,8 +32,7 @@ public class ServerApplicationTests {
                 .andExpect(content().string(equalTo("Greetings from Spring Boot!")));
     }
 
-
-
+*/
 
 
     @Autowired

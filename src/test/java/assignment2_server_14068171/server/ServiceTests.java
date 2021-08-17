@@ -59,6 +59,8 @@ public class ServiceTests {
         assertThat(response).contains("ustart done");
     }
 
+/*
+
     @Test
     public void move() {
         String response = this.testRestTemplate.postForObject("http://localhost:" + port + "/ttt/move/x1z1", "requestString", String.class);
@@ -101,5 +103,6 @@ public class ServiceTests {
         System.out.println("body = " + response);
         assertThat(response).contains("1,1");
     }
+*/
 
 }
